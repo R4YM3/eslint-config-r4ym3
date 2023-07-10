@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-r4ym3",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "personal eslint config",
   "main": "index.js",
   "scripts": {
