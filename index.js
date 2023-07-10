@@ -1,6 +1,6 @@
 module.exports = {
   extends: [
-    './configs/eslint.js',
+    './configs/base.js',
     './configs/react.js',
     './configs/typescript.js',
     './configs/prettier.js',
