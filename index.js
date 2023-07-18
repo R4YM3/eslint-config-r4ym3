@@ -1,6 +1,19 @@
 module.exports = {
+  env: {
+    browser: true,
+    commonjs: true,
+    es2021: true,
+    node: true,
+    jest: true
+  },
   extends: [
-    './lib/base.js',
-    './lib/prettier.js',
-  ]
+    'eslint:recommended',
+  ],
+  globals: {
+    process: 'readonly',
+  },
+  parserOptions: {
+    ecmaVersion: 2021,
+    sourceType: 'module',
+  }
 };
