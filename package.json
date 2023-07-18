@@ -12,6 +12,11 @@
     "config",
     "nextjs"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/R4YM3/eslint-config-r4ym3"
+  },
+  "homepage": "https://github.com/R4YM3/eslint-config-r4ym3",
   "author": "raymond schweers",
   "license": "ISC",
   "peerDependencies": {
