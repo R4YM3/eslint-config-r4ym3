@@ -1,9 +1,6 @@
 module.exports = {
   extends: [
-    './configs/base.js',
-    './configs/react.js',
-    './configs/typescript.js',
-    './configs/prettier.js',
-    './configs/next.js'
+    './lib/base.js',
+    './lib/prettier.js',
   ]
 };
