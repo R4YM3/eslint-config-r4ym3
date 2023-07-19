@@ -1,3 +1,4 @@
+
 # Personal eslint config
 
 ## Installation and Usage
@@ -6,7 +7,7 @@
 npm i -D eslint-config-r4ym3
 ```
 
-.eslintrc.json
+Update your .eslintrc.json
 
 ```
 {
@@ -18,5 +19,9 @@ npm i -D eslint-config-r4ym3
   ]
 }
 ```
+_Mind the order of defining configs, put next and prettier last._
 
-_note: either use react or next config, they conflict when both used_
+Notes:
+- Eslint-config-r4ym3 will load base config.
+- Only load configs which you require.
+- Either use react **or** next config, they [conflict when both used](https://nextjs.org/docs/pages/building-your-application/configuring/eslint#migrating-existing-config).
