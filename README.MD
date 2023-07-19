@@ -14,6 +14,7 @@ Update your .eslintrc.json
   "extends": [
     "eslint-config-r4ym3",
     "eslint-config-r4ym3/configs/typescript",
+    "eslint-config-r4ym3/configs/jest",
     "eslint-config-r4ym3/configs/next",
     "eslint-config-r4ym3/configs/prettier"
   ]
