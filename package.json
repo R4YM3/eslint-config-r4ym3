@@ -11,7 +11,10 @@
     "personal",
     "eslint",
     "config",
-    "nextjs"
+    "nextjs",
+    "react",
+    "prettier",
+    "typescript"
   ],
   "repository": {
     "type": "git",

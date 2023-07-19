@@ -22,6 +22,6 @@ Update your .eslintrc.json
 _Mind the order of defining configs, put next and prettier last._
 
 Notes:
-- Eslint-config-r4ym3 will load base config.
+- eslint-config-r4ym3 will load base config.
 - Only load configs which you require.
 - Either use react **or** next config, they [conflict when both used](https://nextjs.org/docs/pages/building-your-application/configuring/eslint#migrating-existing-config).
