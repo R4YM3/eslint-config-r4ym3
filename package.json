@@ -1,10 +1,11 @@
 {
   "name": "eslint-config-r4ym3",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "personal eslint config",
-  "main": "index.js",
+  "main": "configs/base.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "prepare": "husky install"
   },
   "keywords": [
     "personal",
@@ -34,5 +35,9 @@
     "eslint-plugin-react": "7.32.2",
     "eslint-plugin-react-hooks": "4.6.0",
     "prettier": "3.0.0"
+  },
+  "devDependencies": {
+    "husky": "8.0.3",
+    "jest": "29.5.0"
   }
 }
